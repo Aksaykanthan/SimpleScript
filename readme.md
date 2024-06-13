@@ -32,6 +32,15 @@ task greet(name)
 end
 ```
 
+### To Find Fibonacci Number
+```
+task fib(n)
+	if(n <= 1)do give 1
+	give fib(n-1) + fib(n-2)
+enclose
+
+PRINT(fib(5))
+```
 
 ## Getting Started
 ### Prerequisites
@@ -42,11 +51,11 @@ end
 ### Installation
 1. Clone the repository:
 ```sh
-git clone https://github.com/aksaykanthan
+git clone https://github.com/Aksaykanthan/SimpleScript
 ```
 2. Navigate to the project directory:
 ```sh
-cd 
+cd SimpleScript
 ```
 3. Compile the Java backend:
 ```
