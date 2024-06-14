@@ -29,7 +29,7 @@ this list is [1, 2, 3, 4, 5]
 ```
 task greet(name)
     print "Hello, " + name + "!"
-end
+enclose
 ```
 
 ### To Find Fibonacci Number
@@ -39,7 +39,7 @@ task fib(n)
 	give fib(n-1) + fib(n-2)
 enclose
 
-PRINT(fib(5))
+print(fib(5))
 ```
 
 ## Getting Started
